@@ -1,19 +1,21 @@
-import HeroSection from "@/components/hero-section";
-import Page2 from "@/components/page2";
-import Page3 from "@/components/page3";
-import Page4 from "@/components/page4";
-import Page5 from "@/components/page5";
-import Page6 from "@/components/page6";
-import Page7 from "@/components/page7";
-import Page8 from "@/components/page8";
-import Page9 from "@/components/page9";
+import HeroSection from "@/components/project-1/hero-section-1";
+import Project from "@/components/project-1/project-1";
+import Context from "@/components/project-1/context-1";
+import Problem from "@/components/project-1/problem";
+import Approach1 from "@/components/project-1/approach-1.1";
+import Approach2 from "@/components/project-1/approach-1.2";
 
 export default function Home() {
   return (
     <>
       <HeroSection />
-      <Page2 />
-      <Page3 />
+      <Project />
+      <Context />
+      <Problem />
+      <Approach1 />
+      <Approach2 />
+
+      
     </>
   );
 }
